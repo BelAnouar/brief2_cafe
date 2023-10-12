@@ -61,3 +61,91 @@ h1 {
   margin-bottom: 35px;
   text-transform: capitalize;
 }
+
+#feature {
+  height: 54vh;
+  background-image: url("../images/feature.png");
+  background-size: cover;
+  padding: 4.5rem 10rem;
+}
+#feature .container {
+  background-color: rgba(245, 242, 255, 0.7);
+  border-radius: 10px;
+}
+
+#feature h2 {
+  color: #000;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+}
+.logos img {
+  width: 26%;
+  aspect-ratio: 2/1;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+#location {
+  background-color: #f2f0ef;
+  padding: 3% 5%;
+}
+
+#location h2 {
+  color: #903711;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.5;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.card {
+  width: 240px;
+  background-color: #ffffff;
+
+  overflow: hidden;
+  border-radius: 9px;
+
+  box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.25);
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.card-content {
+  padding: 16px;
+}
+.card-content p {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.24px;
+}
+.card-bottom {
+  margin-bottom: 15%;
+  text-align: center;
+}
+.card-bottom span {
+  font-family: Poppins;
+  font-size: 21px;
+
+  font-weight: 700;
+}

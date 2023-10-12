@@ -310,3 +310,19 @@ h1 {
   left: 5px;
   top: 9px;
 }
+
+
+
+
+.footer {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(29,23,20, 0.9)),
+    url("../images/footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.container{
+  display: flex;
+}

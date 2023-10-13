@@ -65,23 +65,22 @@ h1 {
 .form-section {
   height: 60wh;
   padding: 4% 8%;
- 
 }
 .form-section h2 {
   color: #000;
   font-family: Segoe UI;
-  font-size: 60px;
-  font-style: normal;
+  font-size: 50px;
+
   font-weight: 600;
-  line-height: normal;
 }
 .form-section p {
   color: rgba(0, 0, 0, 0.6);
   font-family: Segoe UI;
-  font-size: 25px;
-  font-style: normal;
+  font-size: 20px;
+
   font-weight: 600;
-  line-height: normal;
+  line-height: 1.5;
+  margin-bottom: 15px;
 }
 
 .container-form {
@@ -96,14 +95,14 @@ h1 {
 .container-form form {
   border-radius: 20px;
   background: rgba(158, 90, 61, 0.18);
-  padding: 2% 3%;
+  padding: 2% 4%;
 }
 .container-form form div {
   width: 50%;
   margin: 7px 0;
 }
 .container-form form input {
-  width: 26vw;
+  width: 30vw;
   height: 43px;
   padding: 3% 5%;
   border: #ceb291 solid 1.7px;
@@ -130,7 +129,7 @@ h1 {
 }
 
 .btn-send {
-  width: 26vw;
+  width: 30vw;
   padding: 4% 0;
 
   background-color: #ccb4aa;

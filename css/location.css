@@ -20,7 +20,7 @@ header {
   color: #fff;
 }
 
-nav {
+header nav {
   font-size: 20px;
   font-weight: 700;
   display: flex;
@@ -68,7 +68,7 @@ h1 {
   background-size: cover;
   padding: 4.5rem 10rem;
 }
-#feature .container {
+.container-feature {
   background-color: rgba(245, 242, 255, 0.7);
   border-radius: 10px;
 }
@@ -131,21 +131,78 @@ h1 {
   border-radius: 10px;
 }
 .card-content {
-  padding: 16px;
+  padding: 12px;
 }
 .card-content p {
-  font-family: Poppins;
-  font-size: 12px;
-  font-weight: 300;
-  letter-spacing: 0.24px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+
+  text-transform: capitalize;
 }
 .card-bottom {
-  margin-bottom: 15%;
-  text-align: center;
+  padding: 12px;
+  margin-top: 4rem;
 }
-.card-bottom span {
-  font-family: Poppins;
-  font-size: 21px;
+.card-bottom small {
+  color: #000;
+  font-family: Outfit;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2;
 
-  font-weight: 700;
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+.footer {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(29,23,20, 0.9)),
+    url("../images/footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+
+
+}
+
+.container{
+  display: flex;
+   justify-content: space-evenly;
+   padding-top: 10rem;
+} 
+.footer-nav{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: #fff;
+
+}
+.logo-footer{
+  display: block;
+  margin-top: 2.2rem;
+
+}
+
+.copyright{
+    text-align: center;
+margin-top: 21%;
+color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+
+font-weight: 400;
+
+text-transform: capitalize;
 }

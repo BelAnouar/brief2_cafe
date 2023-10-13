@@ -20,7 +20,7 @@ header {
   color: #fff;
 }
 
-nav {
+header nav {
   font-size: 20px;
   font-weight: 700;
   display: flex;
@@ -290,4 +290,55 @@ h1 {
   font-style: normal;
   font-weight: 300;
   padding-top: 6%;
+}
+
+
+
+
+
+
+.footer {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(29,23,20, 0.9)),
+    url("../images/footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+
+
+}
+
+.container{
+  display: flex;
+   justify-content: space-evenly;
+   padding-top: 10rem;
+} 
+.footer-nav{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: #fff;
+
+}
+.logo-footer{
+  display: block;
+  margin-top: 2.2rem;
+
+}
+
+.copyright{
+    text-align: center;
+margin-top: 21%;
+color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+
+font-weight: 400;
+
+text-transform: capitalize;
 }
